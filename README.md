@@ -70,6 +70,59 @@ While much of the data we use to record transactions is highly structured, most 
 
 # Categories of data
 
+Quantitative vs. Qualitative Data
+Quantitative data consists of numeric values.
+Qualitative data consists of frequent text values.
+
+Discrete vs. Continuous Data
+Numeric data comes in two different forms: discrete and continuous.
+Instead of counting, when you measure things like height and weight, you are collecting continuous data.
+While whole numbers represent discrete data, continuous data typically need a decimal point.
+Another way to think about it is that discrete data is useful when you have things you want to count
+Instead of counting, when you measure things like height and weight, you are collecting continuous data. 
+
+Categorical Data
+In addition to quantitative, numeric data, there is categorical data. Text data with a known, finite number of categories is categorical.
+
+Dimensional Data
+Dimensional modeling is an approach to arranging data to facilitate analysis. Dimensional modeling organizes data into fact tables and dimension tables.
+Fact tables store measurement data that is of interest to a business.
+A table holding appointment data would be called a fact table.
+Dimensions are tables that contain data about the fact. For appointment data, the veterinarian's office manager may want to understand who was at an appointment and if any procedures were performed.
+
+![FIGURE_2 18_Dimension_illustration](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/db99cf66-080a-4112-af30-d26445e3b32b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

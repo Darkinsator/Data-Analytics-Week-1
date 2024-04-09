@@ -12,11 +12,11 @@ Data analytics can be used by a wide number  of entites such as businesses, to i
 Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data.
 Analysts move through a process as they acquire new data, clean and manipulate that data, analyze it, create visualizations, and then report and communicate their results to business leaders.
 These processes are:
--Data Acquisition
--Cleaning and Manipulation
--Analysis
--Visualization
--Reporting and Communication
+1. Data Acquisition
+2. Cleaning and Manipulation
+3. Analysis
+4. Visualization
+5. Reporting and Communication
 
 ![fig1](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/d74bf5d0-24c8-40a4-ac14-83c0a51281ce)
 

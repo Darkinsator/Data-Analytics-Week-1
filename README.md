@@ -17,6 +17,7 @@ These processes are:
 -Analysis
 -Visualization
 -Reporting and Communication
+
 ![fig1](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/d74bf5d0-24c8-40a4-ac14-83c0a51281ce)
 
 # Roles of a data anaylst

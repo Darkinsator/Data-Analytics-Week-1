@@ -51,7 +51,33 @@ Data analysis in RStudio
 
 Data structure is an important factor in understanding how data works.
 
-Data types is also important as it defines what catagory data goes into and also helps with data analysis.
+Data types is also important as it defines what catagory data goes into and also helps with data analysis. 
+
+![FIGURE_2 1_Person_Data](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/802a7818-113f-44af-af7b-d25245278b8e)
+
+Person Data
+
+Let's explore some of the most common data types that give structured data its structure.
+
+Character: The character data type limits data entries to allow only allow valid characters.Depending on your needs, multiple data types are available that can enforce character limits.
+
+Alphanumeric: The most widely used data type for storing character data. Data element contains both numbers and letters. For example To accurately represent a given street address, both the house number and the street name are required.
+
+Each database software has its unique method of implementing character data types to handle the nuances related to character data. The most significant difference has to do with how much data a particular data element can contain.
+
+# Unstructured Data Types
+While much of the data we use to record transactions is highly structured, most of the world's data is unstructured. Unstructured data is any type of data that does not fit neatly into the tabular model. 
+
+# Categories of data
+
+
+
+
+
+
+
+
+
 
 
 
@@ -61,6 +87,19 @@ Module 2: Data Preparation and Exploration
 Chapter 3: Databases and Data Acquisition
 Chapter 4: Data Quality
 Chapter 5: Data Analysis and Statistics
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

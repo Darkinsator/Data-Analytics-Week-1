@@ -38,13 +38,57 @@ Prescriptive Analytics
 Machine Learning, Artificial Intelligence, and Deep Learning
 Algorithms are used in machine learning to extract knowledge from your datasets that you may utilize to inform future decisions. This is true irrespective of the particular field in which you operate, as machine learning finds application in a wide range of domains. 
 
+Analytics Tools
+Software helps analysts work through each one of the phases of the analytics process. These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. They also provide invaluable assistance in reporting and communicating results.
+
+![FIGURE_1 7_Data_analysis_in_Microsoft_Excel](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/5c828598-29dd-4581-96fb-9cd6645621a8)
+Data analysis in Microsoft Excel
+![FIGURE_1 8_Data_analysis_in_RStudio](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/611730f3-1eaa-44c8-9a52-c3d75fb33ad6)
+Data analysis in RStudio
+
+
+# Chapter 2: Understanding Data
+
+Data structure is an important factor in understanding how data works.
+
+Data types is also important as it defines what catagory data goes into and also helps with data analysis.
 
 
 
-Chapter 2: Understanding Data
+
 
 Module 2: Data Preparation and Exploration
 Chapter 3: Databases and Data Acquisition
 Chapter 4: Data Quality
 Chapter 5: Data Analysis and Statistics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

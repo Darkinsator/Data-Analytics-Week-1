@@ -6,7 +6,8 @@ Data-Analytics-Week-1
 
 # What is Data analytics?
 Data analytics is basically the science and techniques of analysing raw data to make conclusions about information.
-
+Data analytics has many processes and techniques that have already been automated into mechanical processes  and algorithms that work over raw data for human consumption.
+Data analytics can be used by a wide number  of entites such as businesses, to increase the overall performance therefore maximizing  their project
 
 
 Chapter 2: Understanding Data

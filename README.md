@@ -129,8 +129,88 @@ HyperText Markup Language (HTML) is a markup language for documents designed to 
 # Module 2: Data Preparation and Exploration
 
 Chapter 3: Databases and Data Acquisition
+The vast majority of transactional systems generate structured data, and we need technology that will help us store all of that data.
+Exploring Databases
+
+There are many different database options to choose from when an organization needs to store data. While many database products exist, they belong in one of two categories: 
+
+Relational
+Nonrelational
+
+Database use cases
+
+Online Transactional Processing
+OLTP systems handle the transactions we encounter every day. Example transactions include booking a flight reservation, ordering something online, or executing a stock trade. While the number of transactions a system handles on a given day can be very high, individual transactions process small amounts of data. OLTP systems balance the ability to write and read data efficiently.
+
+Normalization
+
+Normalization is a process for structuring a database in a way that minimizes duplication of data. 
+
+First normal form (1NF) is when every row in a table is unique and every column contains a unique value. Consider Figure 3.15, where there are separate rows for Giacomo and Eleonora. While Giacomo and Eleonora have the same home address, appending Eleonora's name in the Person_Name column to Giacomo's in the first row would violate 1NF. However, since each row is unique, Figure 3.15 is in 1NF.
+
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/cc3611df-d456-4765-9e37-29ea237a2ada)
+
+Second normal form (2NF) starts where 1NF leaves off. In addition to each row being unique, 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key. To get to 2NF, the table from Figure 3.15 evolves into the tables in Figure 3.16. Note that the Person_Address table has a composite primary key composed of Person_ID and Addr_ID. The values of both Addr_Code and Addr_Desc are associated with the composite primary key.
+
+Suppose Eleonora starts working from home and updates the Addr_Desc for her row with the value “Work.” That causes data corruption, as the Addr_Code corresponds to the Addr_Desc. Addr_Desc depends on Addr_Code, and with that change, “H” would mean both “Home” and “Work”.
+
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/c1aa9b5b-0fda-4a16-9f36-34d7f6ec2708)
+
+Third normal form (3NF) builds upon 2NF by adding a rule stating all columns must depend on only the primary key. Evolving Figure 3.16 into 3NF results in Figure 3.17. If Eleonora starts working from home, the only value that needs to change is Addr_Code in the Person_Address table. The description for each type of address is in the Addr_Code table. Similarly, the description for each state code is in the State_Code table. The result is that there is little redundancy in the data's storage location and that keys enforce the relationships between tables. Databases in 3NF are said to be highly normalized.
+
+
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/80f6657c-b401-4d1c-82be-c8d769476bb8)
+
+Online Analytical Processing
+OLAP systems focus on the ability of organizations to analyze data. While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design. Typically, OLTP databases are in 3NF.
+
+On the other hand, databases that power OLAP systems have a denormalized design. Instead of having data distributed across multiple tables, denormalization results in wider tables than those found in an OLTP database. It is more efficient for analytical queries to read large amounts of data for a single table instead of incurring the cost of joining multiple tables together.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Chapter 4: Data Quality
+
+
+
 Chapter 5: Data Analysis and Statistics
+
+
+
+
 
 
 

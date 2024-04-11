@@ -92,9 +92,18 @@ Dimensions are tables that contain data about the fact. For appointment data, th
 
 ![FIGURE_2 18_Dimension_illustration](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/db99cf66-080a-4112-af30-d26445e3b32b)
 
+# Common Data Structures
 
+In order to facilitate analysis, data needs to be stored in a consistent, organized manner. When considering structured data, several concepts and standards inform how to organize data.
 
+Structured Data
+Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows.
 
+Unstructured Data
+Unstructured data is qualitative, describing the characteristics of an event or an object. Images, phrases, audio or video recordings, and descriptive text are all examples of unstructured data.
+
+Semi-Structured Data
+Semi-structured data is data that has structure and that is not tabular. Email is a well-known example of semi-structured data. Every email message has structural components, including recipient, sender, subject, date, and time. However, the body of an email is unstructured text, while attachments could be anything type of file.
 
 
 

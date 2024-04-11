@@ -202,7 +202,82 @@ Application Programming Interfaces (APIs)
 6. Observation
 7. Sampling
 
+Working with Data
 
+Data Manipulation
+When manipulating data, one of four possible actions occurs:
+
+Create new data.
+Read existing data.
+Update existing data.
+Delete existing data.
+The acronym CRUD (Create, Read, Update, Delete) is a handy way to remember these four operations.
+
+SQL uses verbs to identify the type of activity a specific statement performs. For each CRUD activity, there is a corresponding DML verb, as Table 3.8 illustrates. These verbs are known as keywords or words that are part of the SQL language itself.
+
+
+SQL Example:
+
+Select Animal_Name, Breed_Name from Animal
+
+The previous query returns the same results as this query:
+
+SELECT Animal_Name, Breed_Name FROM Animal
+
+SQL can also span multiple lines. For example, rewriting the previous query as follows will return identical results:
+
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+Sorting;
+
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth ASC
+
+If you want to return the youngest dog first, you change the ORDER BY clause as follows:
+
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth DESC
+
+The ASC keyword at the end of the ORDER BY clause sorts in ascending order whereas using DESC with ORDER BY sorts in descending order. If you are sorting on multiple columns, you can use both ascending and descending as appropriate. Both the ASC and DESC keywords work across various data types, including date, alphanumeric, and numeric.
+
+
+Exam Prep:
+
+1. Describe the characteristics of OLTP and OLAP systems. 
+
+The two main categories of relational databases are transactional (OLTP) and analytical (OLAP). Transactional systems use highly normalized schema design, which allows for database reads and writes to perform well. Analytical systems are denormalized and commonly have a star or snowflake schema. Remember that a star design simplifies queries by having a main fact table surrounded by dimensions. A snowflake design is more normalized than a star. While this approach reduces storage requirements, the queries are more complex than in a star schema.
+
+2. Describe approaches for handling dimensionality. 
+
+It is crucial to keep track of how data changes over time to perform historical analysis. Although an effective date approach is valid, the SQL queries to retrieve a value at a specific point in time are complex. A table design that adds start date and end date columns allows for more straightforward queries. Enhancing the design with a current flag column makes analytical queries even easier to write.
+
+3. Understand integration and how to populate a data warehouse. 
+
+The more data an organization has, the more impactful the analysis it can conduct. The extract, transform, and load (ETL) process copies data from transactional to analytical databases. Suppose an organization wants to use the power of a relational database to reformat the data for analytical purposes. In that case, the order changes to extract, load, and transform. Regardless of the approach, remember that a delta load migrates only changed data.
+
+4. Differentiate between data collection methods. 
+
+Data can come from a variety of sources. An organization may scrape websites or use publicly available databases to augment its data. While web scraping may be the only way to retrieve data, it is better if a published application programming interface exists. An API is more reliable since its structure makes for a consistent interface. If you want to capture the voice of the customer, a survey is a sound approach. Collecting data through observation is a great way to validate business processes and collect quantitative data.
+
+5. Describe how to manipulate data and optimize queries. 
+
+Analytical databases store massive amounts of data. Manipulating the entire dataset for analysis is frequently infeasible. To efficiently analyze data, understand that SQL has the power to filter, sort, and aggregate data. When focusing on a particular subject, creating a subset is an ideal approach. Although it is possible to create permanent tables to house subsets, using a temporary table as part of a query is viable for ad hoc analysis. When an analytical query performs poorly, use its execution plan to understand the root cause. It is wise to work with a database administrator to understand the execution plan and ensure that indexes exist where they are needed.
 
 
 

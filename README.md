@@ -166,6 +166,54 @@ OLAP systems focus on the ability of organizations to analyze data. While OLAP a
 
 On the other hand, databases that power OLAP systems have a denormalized design. Instead of having data distributed across multiple tables, denormalization results in wider tables than those found in an OLTP database. It is more efficient for analytical queries to read large amounts of data for a single table instead of incurring the cost of joining multiple tables together.
 
+Data Acquisition Concepts
+
+To perform analytics, you need data. Data can come from internal systems you operate, or you can obtain it from third-party sources. Regardless of where data originates, you need to get data before analyzing it to derive additional value. In this section, we explore methods for integrating data from systems you own. We also explore strategies for collecting data from external systems.
+
+Data from transactional systems flow into data warehouses and data marts for analysis. Recall that OLTP and OLAP databases have different internal structures. You need to retrieve, reshape, and insert data to move data between operational and analytical environments. You can use a variety of methods to transfer data efficiently and effectively.
+
+One approach is known as extract, transform, and load (ETL). As the name implies, this method consists of three phases:
+
+Extract:  In the first phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
+Transform:  The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+Load:  The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
+Extract, load, and transform (ELT) is a variant of ETL. With ELT, data is extracted from a source database and loaded directly into the data warehouse. Once the extract and load phases are complete, the transformation phase gets underway. One key difference between ETL and ELT is the technical component performing the transformation. With ETL, the data transformation takes place external to a relational database, using a programming language like Python. ELT uses SQL and the power of a relational database to reformat the data.
+
+ETL Vendors
+
+Whether you choose ETL or ELT for loading your data warehouse, you don't have to write transformations by hand. Many products support both ETL and ELT. Before you pick one, carefully evaluate the available free and paid options to determine the one that best fits your needs and system architecture goals.
+
+An initial load occurs the first time data is put into a data warehouse. After that initial load, each additional load is a delta load, also known as an incremental load. A delta load only moves changes between systems. Figure 3.23 illustrates a data warehouse that launches in January and uses a monthly delta load cycle. The initial load happens right before the data warehouse becomes available for use. All of the transactional data from January becomes the delta load that initiates on the first of February. Figure 3.23 illustrates a monthly delta-load approach that continues throughout the year.
+
+
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/54ab60ea-db8b-4d21-a4e1-582c60c7a7f6)
+
+long your batch window is, think carefully about moving current data into the data warehouse without losing history.
+
+Data Collection Methods
+Augmenting data from your transactional systems with external data is an excellent way to improve the analytical capabilities of your organization. For example, suppose you operate a national motorcycle rental fleet and want to determine if you need to rebalance your fleet across your existing locations. You also want to evaluate whether it is profitable to expand to a new geographic region, as well as predict the best time and place to add motorcycles to your fleet.
+
+Application Programming Interfaces (APIs)
+1. Web Services
+2. Web Scraping
+3. Human-in-the-Loop
+4. Surveys
+5. Survey Tools
+6. Observation
+7. Sampling
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

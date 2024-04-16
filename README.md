@@ -383,6 +383,34 @@ Advanced Techniques: Employing advanced statistical techniques such as anomaly d
 By paying close attention to these aspects and implementing appropriate strategies, analysts can ensure that the data they work with is of high quality, thereby enhancing the reliability and effectiveness of their analytical endeavors.
 
 
+# Data Analysis Week-2
+
+# Chapter 5: Data Analysis and Statistics
+
+# Measures of Frequency
+
+Mean, Mediam and Mode I done in high school so I know those concepts and how to work with it.
+
+# Inferential Statistics
+
+Inferential stats is basically a branch of statistics that focuses mainly using sample data to drawing conclusion about overall populations.
+
+LMS NOTE(For example, suppose you are trying to quantify the weight of college students in the United States. With more than 20 million college students, getting a complete census is not feasible. By combining balanced, representative sample data with inferential statistical techniques, you can confidently make assertions about the broader population.)
+
+Confidence Intervals:
+
+A confidence interval basically describes the POSSIBLITY THAT A SAMPLE STATISTIC contains the true population parameter in a range of values around the mean. Upper and Lower bound values.
+
+# Hypothesis Testing
+
+Data Analysts need to build convincing arguments using data. They use hypothesis testing to accomplish this. A hypothesis test consists of two statements, only one of which can be true. It uses statistical analysis of observable data to determine which of the two statements is most likely to be true.
+
+Example:
+Suppose you are a pricing analyst for an airline. One question you might want to explore is whether or not people over 75 inches tall are willing to pay more for additional legroom on roundtrip flights between Chicago and San Francisco. By conducting a hypothesis test on a sample of passengers, the analyst can make an inference about the population as a whole.
+
+# Analysis Tech
+
+When encountering daat for the first time its always good to perform a EDA which is an exploratory data analysis.
 
 
 
@@ -400,44 +428,6 @@ By paying close attention to these aspects and implementing appropriate strategi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Chapter 5: Data Analysis and Statistics
 
 
 

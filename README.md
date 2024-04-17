@@ -471,7 +471,9 @@ When encountering data for the first time its always good to perform a EDA which
         - Power BI Report Server offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
         ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/60a2a24b-8e45-4d5c-b69b-237ab5807321)
 
-   
+# Chapter 7: Data Visualization with Reports and Dashboards
+
+
         
      
 

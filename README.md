@@ -473,6 +473,17 @@ When encountering data for the first time its always good to perform a EDA which
 
 # Chapter 7: Data Visualization with Reports and Dashboards
 
+# Understanding the business requirement
+
+Historical reporting
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/fd6939a5-afb3-41ed-ba4e-23d2d4be6f14)
+
+Real-time reporting
+![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/6051bc5e-e010-4ea5-983f-b174a2f7e656)
+
+
+
+
 
         
      

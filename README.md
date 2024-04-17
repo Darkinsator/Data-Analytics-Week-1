@@ -410,7 +410,22 @@ Suppose you are a pricing analyst for an airline. One question you might want to
 
 # Analysis Tech
 
-When encountering daat for the first time its always good to perform a EDA which is an exploratory data analysis.
+When encountering data for the first time its always good to perform a EDA which is an exploratory data analysis.
+
+# Chapter 6: Data Analytics Tools
+
+1. Spreadsheets
+   - The spreadsheet is the most powerful and most common and widely used tool in the data analysis world. Spreadsheets provide a intuitive and easy way to store our data in row's and columnn's.
+   - Spreadsheets are basically productivity software packages used to allow us to create document which put and organize our data based on datatype in a spreadsheet, in rows and columns.
+   - Spreadsheets provide users with a flexibility to store their data even if values are mixed(datatypes).
+   - Literally anyone can use spreadsheets because they are easily readable.
+2. Programming Languages
+   - R
+     1. R is a stats programming that was created in 1990 and was niche but two decades later it gain popularity and is used among by many statisticians, data scientists, and business analysts             around the world.
+     
+
+
+   
 
 
 

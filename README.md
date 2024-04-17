@@ -436,7 +436,43 @@ When encountering data for the first time its always good to perform a EDA which
      4. Examples of DDL functions: CREATE, ALTER, DROP.
      5. Examples of DML functions: SELECT, INSERT, UPDATE, DELETE.     
 3. Statistics Packages
-   -
+   - IBM SPSS
+     - One of the most popular statistical software packages and the oldest. Released in 1968, this packages is still used by many statisticians.
+   - Stata
+     - Stata is yet another older package which still continues to receive updates today.
+     -  Stata is less widely used than the more popular SAS and SPSS tools.
+   - Minitab
+     - Minitab shares most of the same features as SPSS, SAS, and Stata but fits into the same category as Stata - an older tool that is not widely used today.
+4. Machine Learning
+   - IBM SPSS Modeler
+     - IBM's SPSS Modeler is one popular tool for building graphical machine learning models.
+       ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/804e8155-4a2b-4c77-8b47-8fe7278c03e1)
+   - RapidMiner
+     - RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler. It offers access to hundreds of different algorithms that may be placed in a                   visually designed machine-learning workflow.
+       ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/a00f2963-8315-4f9f-834d-ccd697d42ccd)
+       ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/dfdc47c7-a3d7-4910-a84f-44d59af2de30)
+5. Analytics Suites
+   - These tools allow analysts to ingest and clean data, perform exploratory statistical analysis, visualize their data, produce models, make predictions, and communicate and report their                results.
+      - IBM Cognos
+         -Cognos Connection is a web-based portal that offers access to other elements of the Cognos suite.
+         - Query Studio provides access to data querying and basic reporting tools.
+         - Report Studio offers advanced report design tools for complex reporting needs.
+         - Analysis Studio enables advanced modeling and analytics on large datasets.
+         -Event Studio provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to                those events.
+         - Metric Studio offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
+         - Cognos Viewer allows stakeholders to easily interact with data and analyses prepared using Cognos.
+         ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/f30ee381-ba14-4de5-b461-0ee920425cda)
+      - Power BI
+        - Power BI is Microsoft's analytics suite built on the company's popular SQL Server database platform.
+        - Power BI Desktop is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+        - The Power BI service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+        - Mobile apps for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+        - Power BI Report Builder allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+        - Power BI Report Server offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
+        ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/60a2a24b-8e45-4d5c-b69b-237ab5807321)
+
+   
+        
      
 
 

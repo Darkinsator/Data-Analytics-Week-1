@@ -423,8 +423,20 @@ When encountering data for the first time its always good to perform a EDA which
    - R
      1. R is a stats programming that was created in 1990 and was niche but two decades later it gain popularity and is used among by many statisticians, data scientists, and business analysts             around the world.
      2. It is a free and open source software. R also continues to grow in popularity because of its adoption by the creators of machine learning methods
-     3. Almost any new machine learning technique created today quickly becomes available to R users in a redistributable package, offered as open-source code on the Comprehensive R Archive Network (CRAN), a worldwide repository of popular R code.
-        
+     3. Almost any new machine learning technique created today quickly becomes available to R users in a redistributable package, offered as open-source code on the Comprehensive R Archive                Network (CRAN), a worldwide repository of popular R code.
+   - Python
+     1. Python is an general purpose programming language so it can do everything from data analysis to coding a video game.
+     2. While python is flexible it is harder to use than R since you need somewhat of a coding background to make use of it fully.
+     3. Python also has specialized libraries that focus on the needs of analysts and data scientists. In particular, the Python Data Analysis Library (pandas) provides a set of tools for                  structuring and analyzing data.
+        ![image](https://github.com/Darkinsator/Data-Analytics-Week-1/assets/112648301/2b28be64-58b7-405b-aac7-8f2e672f5b1a)
+   - Structure Query Language(SQL)
+     1. The language of databases.
+     2. SQL is divided into two major sublanguages Data Definition Language (DDL), which focuses on defining the structure of the database itself, and Data Manipulation Language (DML) which works          with the data inside the database.
+     3. The Data Definition Language (DDL) is used mainly by developers and administrators.
+     4. Examples of DDL functions: CREATE, ALTER, DROP.
+     5. Examples of DML functions: SELECT, INSERT, UPDATE, DELETE.     
+3. Statistics Packages
+   -
      
 
 

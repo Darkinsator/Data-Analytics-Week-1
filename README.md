@@ -422,6 +422,9 @@ When encountering data for the first time its always good to perform a EDA which
 2. Programming Languages
    - R
      1. R is a stats programming that was created in 1990 and was niche but two decades later it gain popularity and is used among by many statisticians, data scientists, and business analysts             around the world.
+     2. It is a free and open source software. R also continues to grow in popularity because of its adoption by the creators of machine learning methods
+     3. Almost any new machine learning technique created today quickly becomes available to R users in a redistributable package, offered as open-source code on the Comprehensive R Archive Network (CRAN), a worldwide repository of popular R code.
+        
      
 
 
